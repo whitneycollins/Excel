@@ -1,4 +1,4 @@
-# Unit 1 | Assignment - KickStart My Chart
+# Unit 1 | Excel Assignment - KickStart My Chart
 
 ## Background
 
@@ -6,7 +6,7 @@ Over two billion dollars have been raised using the massively successful crowdfu
 
 Since getting funded on Kickstarter requires meeting or exceeding the project's initial goal, many organizations spend months looking through past projects in an attempt to discover some trick to finding success. For this week's homework, you will organize and analyze a database of four thousand past projects in order to uncover any hidden trends.
 
-## Instructions
+## Overview
 
 ![Kickstarter Table](Images/FullTable.PNG)
 
@@ -52,8 +52,6 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 2. What are some of the limitations of this dataset?
 3. What are some other possible tables/graphs that we could create?
 
-## Bonus
-
 * Create a new sheet with 8 columns: `Goal`, `Number Successful`, `Number Failed`, `Number Canceled`, `Total Projects`, `Percentage Successful`, `Percentage Failed`, and `Percentage Canceled`
 
   * In the `goal` column, create twelve rows with the following headers...
@@ -79,12 +77,18 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 
   * Create a line chart which graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-## Submission
 
-* To submit, please upload the solution and files to a Github repo, dropbox, or google drive and submit the link to <https://bootcampspot.com/>.
+## Conclusions
+### What are three conclusions we can make about Kickstarter campaigns given the provided data?
+Successful campaigns decline over the period. While a gain during the summer months peaked, the overall trend falls over the time period.
+Campaigns that had failed or were canceled were fairly steady throughout the months. Canceled were relatively low in comparison to the other outcomes which means that most campaigns were either successful or failed.
+A significant amount of campaigns were in theater and plays, where about ⅔ of the play campaigns had success.
 
-- - -
+### What are some of the limitations of this dataset?
+This data set has roughly ¾ its data pulled from US campaigns. So any significant events that may have occurred in the United States would largely affect this data collected. That being said, many other countries may have limited resources or ability to promote a campaign. 
+This collected data is represented in different currencies. Without a common currency, the average pledge per backer is different for multiple countries, which we have here.
 
-### Copyright
+### What are some other possible tables/graphs that we could create?
+A table or graph that would help would be to find a common currency amongst the data. Since currencies are not equal, the amount pledged or needed (Goal) can vary. This can show new info in regards to what category has the biggest interest and success or fail.
+A visual for pledged amounts and outcomes would also be helpful. This would help determine the probability of being successful with no, small or large pledges. This chart would help us see the correlation between the amount of funds the campaign has earned and level of success.
 
-Trilogy Education Services © 2017. All Rights Reserved.
